@@ -16,9 +16,21 @@ To write a Python program to demonstrate **Head Recursion** by finding and print
 7. **Stop**
 
 ## 💻 PROGRAM:
+```
+def fun(n):
+    if (n > 0):
+        fun(n - 1)
+        print(n, end=" ")
+ 
 
-ADD CODE HERE
+x = int(input())
+fun(x)
+```
 
 ## OUTPUT
 
+<img width="1087" height="271" alt="image" src="https://github.com/user-attachments/assets/a32478fc-e2b8-456f-8a11-4ef8b41dd2a8" />
+
 ## RESULT
+Thus a Python program to find the sum of square of a first n Natural Numbers using recursion is verfied.
+
