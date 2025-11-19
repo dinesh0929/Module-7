@@ -15,9 +15,21 @@ To write a Python program to calculate the **sum of all digits** in a number usi
 6. **Stop**
 
 ## 💻 PROGRAM:
+```
+def fun(n):
+    if (n > 0):
+        fun(n - 1)
+        print(n, end=" ")
+ 
 
-ADD CODE HERE
+x = int(input())
+fun(x)
+```
 
 ## OUTPUT
 
+<img width="1087" height="271" alt="image" src="https://github.com/user-attachments/assets/e9173174-f1ee-47f4-afeb-92125db263df" />
+
 ## RESULT
+Thus a Python program to find the sum of square of a first n Natural Numbers using recursion is verfied.
+
