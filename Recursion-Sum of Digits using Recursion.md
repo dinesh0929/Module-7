@@ -16,20 +16,19 @@ To write a Python program to calculate the **sum of all digits** in a number usi
 
 ## 💻 PROGRAM:
 ```
-def fun(n):
-    if (n > 0):
-        fun(n - 1)
-        print(n, end=" ")
- 
+def sqr(num):
+    if num == 0:
+        return 0;
+    return (num % 10)**2 + sqr(num // 10)
 
-x = int(input())
-fun(x)
+num = int(input())
+print(sqr(num))
 ```
-
 ## OUTPUT
 
-<img width="1087" height="271" alt="image" src="https://github.com/user-attachments/assets/e9173174-f1ee-47f4-afeb-92125db263df" />
+<img width="1057" height="250" alt="image" src="https://github.com/user-attachments/assets/59ee4b43-acba-4ba8-a4ff-fa2b910e3f40" />
 
 ## RESULT
-Thus a Python program to find the sum of square of a first n Natural Numbers using recursion is verfied.
+Thus the program executed successfully .
+
 
