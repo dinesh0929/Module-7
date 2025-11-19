@@ -20,9 +20,26 @@ To write a Python program to check whether a given string is a **palindrome** us
 ---
 
 ## 💻 PROGRAM:
-ADD CODE HERE
+```
+def fun(n):
+    if n==1:
+        return 1
+    elif n==0:
+        return 0
+    else:
+        print(n,end=" ")
+        return(fun(fun(n-2)))
+        
+n=int(input())
+print(fun(n))
+```
 
 ## OUTPUT
 
+<img width="356" height="166" alt="image" src="https://github.com/user-attachments/assets/3b897915-0c2c-458b-abee-ed1c4222f24f" />
+
 ## RESULT
+Thus the Nested recursion is verified.
+
+
 
